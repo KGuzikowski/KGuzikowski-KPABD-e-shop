@@ -52,7 +52,7 @@ So the api will get a rather big request consisting of information mentioned abo
 
 Each order has a status assigned to it. Possibilities are:
 * awaiting confirmation - this status is assigned until payment is conformed - so in this project this status will never be assigned
-* preparation for shipping
+* preparing for shipping
 * shipped
 * delivered
 
@@ -68,8 +68,8 @@ Those are the base functionalities that most standard online stores have to impl
 Main entities with some of the most important properties are defined below.
 
 1. User:
-    * First name
-    * Last name
+    * Full name
+    * Date of birth
     * Email
     * Billing address as a `Address`
     * Shipment addresses as a `List[Address]`
@@ -77,9 +77,10 @@ Main entities with some of the most important properties are defined below.
     * Name
     * Brand
     * Description
+    * Properties
     * Photos (as a list of urls)
     * Price
-    * Available sizes
+    * Discount
     * Rating
     * Opinions as a `List[Opinion]`
     * Delivery options as a `List[DeliveryOption]`
@@ -101,6 +102,8 @@ Main entities with some of the most important properties are defined below.
 * browsing
 * searching
 * filtering
+* sorting
+* applying a discount
 * choosing a delivery type
 * changing or adding a shipping address/billing address
 * changing a user data
@@ -109,5 +112,9 @@ Main entities with some of the most important properties are defined below.
 * modifying a product
 * changing a order status
 * placing a order
-* adding a opinion
+* reading an opinion
+* adding an opinion
+* modifying an opinion
+* reading a opinion
+* adding a rating
 * modifying a opinion
