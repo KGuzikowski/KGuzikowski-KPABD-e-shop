@@ -1,4 +1,4 @@
-# KGuzikowski-KPABD-e-shop-api
+# KGuzikowski-KPABD-e-shop
 
 ## Design and architecture:
 
